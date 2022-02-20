@@ -1,0 +1,65 @@
+body
+{
+    background-color: rgb(240, 240, 140); 
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.case
+{
+    width: 66.66px;
+    height: 66.66px;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: rgb(240, 240, 140);
+    border: none;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: ease-out;
+}
+
+.case:invalid, .invalide
+{
+    background-color: tomato;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 3px ridge black;
+}
+
+tr, td
+{
+    border: 1px solid black; 
+    text-align: center;
+    font-size: 1.3em; 
+}
+
+tr:nth-of-type(4), tr:nth-of-type(7)
+{
+    border-top: 3px solid;
+}
+
+td:nth-of-type(4), td:nth-of-type(7)
+{
+    border-left: 5px solid;
+}
+
+button
+{
+    display: block;
+    background-color: cornflowerblue;
+    margin: 100px auto 0;
+    font-size: 1.5em;
+}
+
+
+
